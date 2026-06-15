@@ -5,10 +5,14 @@ class Poshgre < Formula
   license "MIT"
 
   on_macos do
-    957fd867545b1851526c88c4d70f6bb0414672e893c6f1af98eb2e32f6c0d494"
+    on_arm do
+      url "https://github.com/hatohato25/poshgre/releases/download/v#{version}/posh-#{version}-aarch64-apple-darwin.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
 
-    kbfe6b5ac260cf1cfea210d237c466cf5e074c75928ce28f54103b5497b8917"
+    on_intel do
+      url "https://github.com/hatohato25/poshgre/releases/download/v#{version}/posh-#{version}-x86_64-apple-darwin.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
   end
 
