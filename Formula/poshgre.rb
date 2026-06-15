@@ -7,12 +7,12 @@ class Poshgre < Formula
   on_macos do
     on_arm do
       url "https://github.com/hatohato25/poshgre/releases/download/v#{version}/posh-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "269bf8dcc7acb7d8578d7a5ea1aa65406740fb410dfea88ff6ef036fee98b5e6"
     end
 
     on_intel do
       url "https://github.com/hatohato25/poshgre/releases/download/v#{version}/posh-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "269bf8dcc7acb7d8578d7a5ea1aa65406740fb410dfea88ff6ef036fee98b5e6"
     end
   end
 
